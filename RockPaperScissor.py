@@ -26,5 +26,9 @@ while True:
             print("You Lose! ", computer_play, "beats", user_play)
         else: #computer have played paper
             print("You Won! ", user_play, "beats", computer_play)    
+    elif user_play == "exit" or "Exit":
+        break
+
     else:
         print("Not a valid option!, try again!!")
+
