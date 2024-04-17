@@ -6,7 +6,7 @@ play_options = ["rock", "paper", "scissors"]
 while True:
 
     computer_play = play_options[randint(0,2)] #play option for computer
-    user_play = input("Chose one:Rock, Paper, Scissors? ").lower() #play option for user
+    user_play = input("Choose one:Rock, Paper, Scissors? ").lower() #play option for user
 
 
     if computer_play == user_play:
